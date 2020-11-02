@@ -1,0 +1,21 @@
+{
+  "name": "@micro-dash-examples/nodejs-basic",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:micro-ux/micro-dash-examples.git",
+  "author": "Nischith BM <nischithbm@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src"
+  },
+  "dependencies": {
+    "@micro-ux/micro-dash": "0.0.9"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

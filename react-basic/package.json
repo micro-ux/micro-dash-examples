@@ -1,0 +1,43 @@
+{
+  "name": "@micro-dash-examples/react-basic",
+  "version": "1.0.0",
+  "private": true,
+  "repository": "git@github.com:micro-ux/micro-dash-examples.git",
+  "author": "Nischith BM <nischithbm@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --open --mode development --liveReload"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.0.2",
+    "@material-ui/icons": "^4.0.1",
+    "@micro-ux/micro-dash.lowercase": "0.0.9",
+    "classnames": "^2.2.6",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-router-dom": "4.3.1",
+    "styled-components": "^4.3.2",
+    "typeface-roboto": "^0.0.54"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.3",
+    "@babel/plugin-transform-runtime": "^7.12.1",
+    "@babel/preset-env": "^7.8.3",
+    "@babel/preset-react": "^7.8.3",
+    "@babel/runtime": "^7.12.1",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "5.0.0-alpha.6",
+    "style-loader": "^1.2.1",
+    "webpack": "5.2.0",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "engines": {
+    "node": ">=10.13.0"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  }
+}

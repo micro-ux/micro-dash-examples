@@ -1,0 +1,17 @@
+{
+  "name": "@micro-dash-examples/examples-root",
+  "version": "1.0.0",
+  "repository": "git@github.com:micro-ux/micro-ux-examples.git",
+  "author": "Nischith BM <nischith_bm@intuit.com>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "nodejs-*",
+      "react-*"
+    ]
+  },
+  "devDependencies": {
+    "lerna": "3.22.1"
+  }
+}
